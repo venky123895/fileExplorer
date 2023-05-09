@@ -1,0 +1,179 @@
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+.but_cotainer{
+    width: 4rem;
+    height: 4rem;
+    /* border: 2px solid black; */
+    margin: 20px;
+}
+.add_button{
+    width: 100%;
+    height: 100%;
+    border: 3px dashed darkgreen;
+    font-size: 1.4rem;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: lightpink;
+    color: blue;
+}
+.pop_up{
+    width: 250px;
+    height: 250px;
+   margin:50px auto;
+}
+.pop_up_Container{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    text-align: center ;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+}
+.cancel{
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: darkred;
+    
+}
+.but_Cont{
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.but_Cont .but{
+    width: 50px;
+    height: 20px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid red;
+    cursor: pointer;
+    color: blue;
+}
+.but_Cont .but1{
+    width: 50px;
+    height: 20px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid red;
+    cursor: pointer;
+    color: blue;
+}
+.pop_up_input{
+    width: 100%;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 25px;
+    outline: none;
+    color: blue;
+}
+.create_but{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid red;
+    outline: none;
+    font-size: 1rem;
+    color: blue;
+    cursor: pointer;
+}
+.hoverEffect{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.fileContainer{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    margin: 20px;
+   
+}
+.imageContainer{
+    width: 70px ;
+    height: 70px;
+
+}
+.fileLogo{
+    width: 100%;
+    height: 100%;
+}
+.onHoverContainer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;  
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+.onHoverContainer button{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    border: 2px solid white;
+}
+.onHoverContainer:hover{
+    opacity: 1;
+}
+.renameCard{
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    margin: 50px auto;
+    position: relative;
+}
+.title{
+    color: green;
+    margin: 10px;
+    margin-top: 30px;
+}
+.renameInput{
+    width: 100%;
+    height: 20px;
+    border: 2px solid red;
+    color: blue;
+    border-radius: 5px;
+    outline: none;
+   margin-bottom: 5px;
+}
+.renameBut{
+    width: 70px;
+    height: 20px;
+    border: 1px solid red;
+    outline: none;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+.renameCancel{
+    position: absolute;
+    right: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
